@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">brenda</string>
+    <string name="title_activity_layout">LayoutActivity</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_form">Form_Activity</string>
+    <string name="title_activity_sign_up">Sign_up_Activity</string>
+    <string name="title_activity_destination">DestinationActivity</string>
+    <string name="title_activity_explore">ExploreActivity</string>
+    <string name="title_activity_woof">woof</string>
+    <string name="title_activity_my_lottie">MyLottie</string>
+    <string name="title_activity_lottie_activitie">LottieActivitie</string>
+    <string name="title_activity_splash">splashActivity</string>
+    <string name="title_activity_first">FirstActivity</string>
+    <string name="title_activity_second">secondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_funiture">FunitureActivity</string>
+</resources>

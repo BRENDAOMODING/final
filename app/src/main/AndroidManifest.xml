@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tour Guide"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.Salim"
+        tools:targetApi="31">
+        <activity
+            android:name=".FunitureActivity"
+            android:exported="false"
+            android:label="@string/title_activity_funiture"
+            android:theme="@style/Theme.Salim">
+
+        </activity>
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="false"
+            android:label="@string/title_activity_third"
+            android:theme="@style/Theme.Salim">
+
+        </activity>
+        <activity
+            android:name=".secondActivity"
+            android:exported="false"
+            android:label="@string/title_activity_second"
+            android:theme="@style/Theme.Salim">
+
+        </activity>
+        <activity
+            android:name=".FirstActivity"
+            android:exported="true"
+            android:label="@string/title_activity_first"
+            android:theme="@style/Theme.Salim">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.Salim"/>
+
+
+        <activity
+            android:name=".LottieActivity"
+            android:exported="false"
+            android:label="@string/title_activity_lottie_activitie"
+            android:theme="@style/Theme.Salim"/>
+
+
+        <activity
+            android:name=".woof"
+            android:exported="false"
+            android:label="@string/title_activity_woof"
+            android:theme="@style/Theme.Salim" />
+
+        <activity
+            android:name=".ExploreActivity"
+            android:exported="false"
+            android:label="@string/title_activity_explore"
+            android:theme="@style/Theme.Salim"/>
+
+
+        <activity
+            android:name=".DestinationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_destination"
+            android:theme="@style/Theme.Salim"/>
+
+
+        <activity
+            android:name=".Sign_up_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/Theme.Salim"/>
+
+        <activity
+            android:name=".Form_Activity"
+            android:exported="false"
+            android:label="@string/title_activity_form"
+            android:theme="@style/Theme.Salim"/>
+
+
+        <activity
+            android:name=".IntentActivity"
+            android:exported="false"
+            android:label="@string/title_activity_intent"
+            android:theme="@style/Theme.Salim"/>
+
+        <activity
+            android:name=".LayoutActivity"
+            android:exported="false"
+            android:label="@string/title_activity_layout"
+            android:theme="@style/Theme.Salim"/>
+
+        <activity
+            android:name=".splashActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Salim">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
